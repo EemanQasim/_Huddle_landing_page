@@ -1,0 +1,156 @@
+@media screen and (min-width : 601px), (orientation:landscape) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    display: flex;
+    max-width: 1440px;
+  }
+
+  header {
+    grid-area: header;
+    width: 100%;
+  }
+
+  header .nav {
+    width: 100%;
+  }
+
+  header .intro_text {
+    width: 75%;
+  }
+
+  .intro_text button {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .figure img {
+    margin: 0 auto;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+  }
+
+  .main_cont {
+    grid-area: body;
+  }
+
+  .grow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "sec_info   sec_image ";
+    align-items: center;
+    line-height: 2;
+  }
+
+  .sec_info {
+    grid-area: sec_info;
+  }
+
+  .flow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "sec_image2 sec_info2";
+    align-items: center;
+    line-height: 2;
+  }
+
+  .sec_image2 {
+    grid-area: sec_image2;
+  }
+
+  .users {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "sec_info3  sec_image3";
+    align-items: center;
+    line-height: 2;
+  }
+
+  .sec_info3 {
+    grid-area: sec_info3;
+  }
+
+  aside {
+    padding:100px;
+  }
+
+  .foot {
+    grid-area: foot;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+
+.foot{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "hud new";
+}
+
+.news{
+  grid-area: new;
+  height: 100%;
+ padding-left: 15px;
+}
+
+.info_ {
+  height: 100%;
+  margin:5px;
+}
+
+.news input{
+  display: inline;
+  width: 50%;
+  border-radius: 50px;
+}
+
+.news button{
+  display: inline;
+  width: 30%;
+  margin-left: 20px;
+  border-radius: 50px;
+
+}
+
+button{
+  border-radius: 50px;
+  background-color: hsl(322, 100%, 66%);
+  color: whitesmoke;
+}
+
+.subscribe_{
+  display: flex;
+  text-align:
+
+
+  border:1px solid blue;
+}
+
+.info_{
+  height: auto;
+  padding-left: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+}

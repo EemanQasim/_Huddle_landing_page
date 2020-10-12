@@ -22,7 +22,7 @@
   }
 
   .intro_text button {
-    width: 40%;
+    width: 35%;
     margin: 0 auto;
   }
 
@@ -84,6 +84,10 @@
     padding:100px;
   }
 
+  aside button{
+    width: 30%;
+  }
+
   .foot {
     grid-area: foot;
     display: flex;
@@ -119,6 +123,7 @@
 .news button{
   display: inline;
   width: 30%;
+  height: 40px;
   margin-left: 20px;
   border-radius: 50px;
 
@@ -128,6 +133,7 @@ button{
   border-radius: 50px;
   background-color: hsl(322, 100%, 66%);
   color: whitesmoke;
+
 }
 
 .subscribe_{

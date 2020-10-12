@@ -56,6 +56,7 @@ header {
   border: 1px solid red;
   margin-bottom: 5px;
   padding: 5px;
+  margin-top: 10px;
 }
 
 .intro_text{
@@ -76,6 +77,19 @@ header {
   height: 48px;
 
 
+}
+
+.nav button{
+  background-color: whitesmoke;
+  color: hsl(322, 100%, 66%);
+  width: 100px;
+  margin-left: 0 auto;
+  border: 1px solid hsl(322, 100%, 66%);
+
+}
+
+.nav img{
+  width: 30%;
 }
 
 /* Header end  */
@@ -106,6 +120,7 @@ header {
   width: 100%;
   border: 1px solid red;
   margin: 5px;
+  text-align: center;
 
 }
 
@@ -117,6 +132,18 @@ padding: 20px;
 
 }
 
+.stats img {
+  width: 25px;
+  align-self:flex-start;
+  margin-right: 55px;
+
+}
+
+.stats h1 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 2px;
+}
 
 
 /* Stats end */
@@ -150,10 +177,37 @@ aside {
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding:100px;
+margin: 0 auto;
 }
 
+aside h1 {
+  text-align: center;
+}
 
+aside button{
+  width: 50%;
+  margin: 5px;
+}
+
+.subscribe_{
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe_ button{
+  width: 40%;
+  height: 48px;
+  border-radius: 10px;
+  margin-left: 225px;
+  margin-bottom: 5px;
+}
+
+.subscribe_ input{
+  margin: 0 10px 10px 10px;
+  height: 48px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
 
 /* footer start  */
 

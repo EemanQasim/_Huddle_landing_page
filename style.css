@@ -1,33 +1,26 @@
-
-* , ::before , ::after {
+*, ::before, ::after {
   box-sizing: border-box;
 }
 
 /* font-family: 'Poppins', sans-serif; headings
 font-family: 'Open Sans', sans-serif; body  */
-
-h1 , h2, h3 {
+h1, h2, h3 {
   font-family: 'Poppins', sans-serif;
-
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
-
 }
 
-
-
-body{
+body {
   width: 75%;
   margin: 0 auto;
   border: 3px solid red;
   display: grid;
-  justify-items:center;
-
+  justify-items: center;
 }
 
-main{
+main {
   display: flex;
   flex-flow: column wrap;
   min-width: 375px;
@@ -38,7 +31,6 @@ main{
 }
 
 /* header start */
-
 header {
   border: 2px solid blue;
   /* max-width: 500px; */
@@ -46,10 +38,9 @@ header {
   width: 100%;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
-.nav{
+.nav {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
@@ -59,7 +50,7 @@ header {
   margin-top: 10px;
 }
 
-.intro_text{
+.intro_text {
   display: flex;
   flex-flow: column wrap;
   text-align: center;
@@ -70,31 +61,27 @@ header {
   padding: 15px
 }
 
-.intro_text button , aside button {
+.intro_text button, aside button {
   border-radius: 50px;
   background-color: hsl(322, 100%, 66%);
   color: black;
   height: 48px;
-
-
 }
 
-.nav button{
+.nav button {
   background-color: whitesmoke;
   color: hsl(322, 100%, 66%);
   width: 100px;
   margin-left: 0 auto;
   border: 1px solid hsl(322, 100%, 66%);
-
+  padding: 10px;
 }
 
-.nav img{
+.nav img {
   width: 30%;
 }
 
 /* Header end  */
-
-
 .figure {
   border: 1px solid black;
   /* min-width: 375px;
@@ -106,11 +93,8 @@ header {
   margin: 5px;
 }
 
-
 /* Stats start */
-
-
-.stats{
+.stats {
   /* min-width: 375px;
   max-width: 500px; */
   display: flex;
@@ -121,22 +105,19 @@ header {
   border: 1px solid red;
   margin: 5px;
   text-align: center;
-
 }
 
-.commu , .mess {
-border: 1px solid blue;
-width: 100%;
-text-align: center;
-padding: 20px;
-
+.commu, .mess {
+  border: 1px solid blue;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 }
 
 .stats img {
   width: 25px;
-  align-self:flex-start;
+  align-self: flex-start;
   margin-right: 55px;
-
 }
 
 .stats h1 {
@@ -145,11 +126,9 @@ padding: 20px;
   padding-top: 2px;
 }
 
-
 /* Stats end */
-
 /* Main content start  */
-.main_cont{
+.main_cont {
   /* min-width: 375px; */
   /* max-width: 500px; */
   border: 1px dotted blue;
@@ -159,50 +138,43 @@ padding: 20px;
   padding: 20px;
   width: 100%;
   text-align: center;
-
 }
 
-.main_cont img{
+.main_cont img {
   width: 75%;
   height: auto;
 }
 
 /* Main content End */
-
-
 aside {
   display: flex;
   flex-flow: column wrap;
   border: 1px dotted red;
   width: 100%;
-  justify-content: center;
   align-items: center;
-margin: 0 auto;
-}
-
-aside h1 {
+  margin: 0 auto;
   text-align: center;
 }
 
-aside button{
+aside button {
   width: 50%;
   margin: 5px;
 }
 
-.subscribe_{
+.subscribe_ {
   display: flex;
   flex-direction: column;
 }
 
-.subscribe_ button{
+.subscribe_ button {
   width: 40%;
   height: 48px;
   border-radius: 10px;
-  margin-left: 225px;
   margin-bottom: 5px;
+  align-self: flex-end;
 }
 
-.subscribe_ input{
+.subscribe_ input {
   margin: 0 10px 10px 10px;
   height: 48px;
   background-color: whitesmoke;
@@ -210,57 +182,53 @@ aside button{
 }
 
 /* footer start  */
-
-.foot{
+.foot {
   display: flex;
   flex-flow: column wrap;
   border: 1px dotted blue;
-  margin:5px;
+  /* margin:5px; */
   width: 100%;
-  color:whitesmoke;
+  color: whitesmoke;
+/* background-image:url(images/bg-footer-top-mobile.svg);
+background-position:left;
+background-repeat:no-repeat;
+background-size: cover; */
+}
 
+.{
 
 }
 
 .news {
   display: flex;
   flex-flow: column wrap;
-  border:1px solid blue;
+  border: 1px solid blue;
   margin: 5px;
-  /* padding-left: 15px; */
 }
 
-
-
-.info_{
+.info_ {
   border: 1px solid green;
-  /* margin: 5px; */
-  /* padding-top: 10px;
-  padding-left: 15px; */
- display: flex;
- flex-flow: column wrap;
-
-
+  display: flex;
+  flex-flow: column wrap;
 }
 
 figure img {
   width: 50%;
 }
-figure{
+
+figure {
   margin-left: 0;
   line-height: 2;
 }
 
-
-ul{
+ul {
   display: flex;
-  border:1px solid black;
+  border: 1px solid black;
   padding-left: 0;
   justify-content: flex-start;
-
 }
 
-li{
+li {
   list-style: none;
   padding: 5px;
   border: 1px solid red;
@@ -268,8 +236,7 @@ li{
 }
 
 /* footer end  */
-
-button{
+button {
   border-radius: 50px;
   background-color: hsl(322, 100%, 66%);
   color: whitesmoke;
